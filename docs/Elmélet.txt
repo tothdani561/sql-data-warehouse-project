@@ -1,0 +1,11 @@
+Alap kérdések:
+
+1. Mi az a Table?
+	A table egy objektum az adatbázisban, ami tartalmazza az adatokat.
+
+2. Milyen típusú táblák vannak?
+	PARTITIONED TABLE: Egy szűrés gyakorlatilag, amivel gyorsabb lekéredezés időt, könnyebb karbantarthatóságot és skálázhatóságot érhetünk el. Például több millió rekordra csinálunk egy partíciót, ahol csak a rekordok kis százalékára van szükség, mondjuk egy 10 éves adathalmazből csak az idei évi adatokra.
+	TEMPORARY TABLES(Ideiglenes táblák): tempdb adatbázisba vannak tárolva.
+		2 fajtája van: Local és Global ideiglenes tábla -> Local csak az adott munkamenet alatt érhető el, a globálishoz pedig több munkamenet is hozzáférhet.
+	SYSTEM TABLES: Olyan táblák, melyek információkat tárolnak az adatbázis objektumairól. SQL server maga kezeli.(táblák, nézetek, oszlopok, stb...) Általában sys.columns például, amivel egy adott tábla oszlopainak nevét tudom lekérdezni.
+	WIDE TABLES: Ezek a táblák úgynevezett "ritka oszlopokat" használnak, hogy megnöveljék az oszlopszám maximumát akár 30.000-re. Akkor hasznos, ha sok ritkán használt oszlopra van szükség.
