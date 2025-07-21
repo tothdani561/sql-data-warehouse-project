@@ -39,10 +39,11 @@ GO
 
 CREATE TABLE silver.crm_prd_info (
     prd_id INT,                       -- Product ID
+    cat_id NVARCHAR(50),
     prd_key NVARCHAR(50),             -- Business key (SKU or catalog ID)
     prd_nm NVARCHAR(100),             -- Product name
     prd_cost INT NULL,                -- Product cost (nullable)
-    prd_line NVARCHAR(10),            -- Product line/category
+    prd_line NVARCHAR(20),            -- Product line/category
     prd_start_dt DATETIME NULL,       -- Product introduction date
     prd_end_dt DATETIME NULL,         -- Product discontinuation date (nullable)
     wh_create_date DATETIME2 DEFAULT GETDATE()
@@ -61,9 +62,9 @@ CREATE TABLE silver.crm_sales_details (
     sls_ord_num NVARCHAR(20),         -- Sales order number
     sls_prd_key NVARCHAR(50),         -- Product key (foreign key to product table)
     sls_cust_id INT,                  -- Customer ID (foreign key to customer)
-    sls_order_dt INT,                 -- Order date (YYYYMMDD format)
-    sls_ship_dt INT,                  -- Shipping date
-    sls_due_dt INT,                   -- Due date
+    sls_order_dt NVARCHAR(20),                 -- Order date (YYYYMMDD format)
+    sls_ship_dt NVARCHAR(20),                  -- Shipping date
+    sls_due_dt NVARCHAR(20),                   -- Due date
     sls_sales INT,                    -- Total sales amount
     sls_quantity INT,                 -- Quantity ordered
     sls_price INT,                    -- Price per unit

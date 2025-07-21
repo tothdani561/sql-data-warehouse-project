@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DataWarehouse.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|solutionrelative:SalesCubeProject\\DataWarehouse.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DataWarehouse.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|solutionrelative:SalesCubeProject\\DataWarehouse.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DimCustomers.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|solutionrelative:SalesCubeProject\\DimCustomers.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DimProducts.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D1761386-D7CC-93D4-9F96-05049A7CC74B}|SalesCubeProject\\SalesCubeProject.dwproj|solutionrelative:SalesCubeProject\\DimProducts.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataWarehouse.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DataWarehouse.dsv",
+              "RelativeDocumentMoniker": "SalesCubeProject\\DataWarehouse.dsv",
+              "ToolTip": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DataWarehouse.dsv [Design]",
+              "RelativeToolTip": "SalesCubeProject\\DataWarehouse.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-20T18:03:23.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataWarehouse.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DataWarehouse.cube",
+              "RelativeDocumentMoniker": "SalesCubeProject\\DataWarehouse.cube",
+              "ToolTip": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DataWarehouse.cube [Design]",
+              "RelativeToolTip": "SalesCubeProject\\DataWarehouse.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-20T17:55:39.165Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DimCustomers.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DimCustomers.dim",
+              "RelativeDocumentMoniker": "SalesCubeProject\\DimCustomers.dim",
+              "ToolTip": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DimCustomers.dim [Design]",
+              "RelativeToolTip": "SalesCubeProject\\DimCustomers.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-20T17:42:40.59Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DimProducts.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DimProducts.dim",
+              "RelativeDocumentMoniker": "SalesCubeProject\\DimProducts.dim",
+              "ToolTip": "C:\\Users\\sarka\\Desktop\\sql-data-warehouse-project\\OLAP\\SalesCubeProject\\SalesCubeProject\\DimProducts.dim [Design]",
+              "RelativeToolTip": "SalesCubeProject\\DimProducts.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-20T17:38:26.739Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

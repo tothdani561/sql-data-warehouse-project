@@ -59,9 +59,9 @@ CREATE TABLE bronze.crm_sales_details (
     sls_ord_num NVARCHAR(20),         -- Sales order number
     sls_prd_key NVARCHAR(50),         -- Product key (foreign key to product table)
     sls_cust_id INT,                  -- Customer ID (foreign key to customer)
-    sls_order_dt INT,                 -- Order date (YYYYMMDD format)
-    sls_ship_dt INT,                  -- Shipping date
-    sls_due_dt INT,                   -- Due date
+    sls_order_dt NVARCHAR(20),                 -- Order date (YYYYMMDD format)
+    sls_ship_dt NVARCHAR(20),                  -- Shipping date
+    sls_due_dt NVARCHAR(20),                   -- Due date
     sls_sales INT,                    -- Total sales amount
     sls_quantity INT,                 -- Quantity ordered
     sls_price INT                     -- Price per unit
